@@ -62,8 +62,9 @@ function application_build_versioned_components()
           rv32e-ilp32e-- \
           rv32ec-ilp32e-- \
           rv32ecxw-ilp32e-- \
-          rv32em-ilp32e-- \
-          rv32emc-ilp32e-- \
+          rv32emac-ilp32e-- \
+          rv32ec_zmmul-ilp32e-- \
+          rv32ecxw_zmmul-ilp32e-- \
           \
           rv32i-ilp32-- \
           rv32ia-ilp32-- \
@@ -79,8 +80,10 @@ function application_build_versioned_components()
           rv32ifdc-ilp32d-- \
           rv32im-ilp32-- \
           rv32ima-ilp32-- \
+          rv32imc_zba_zbb_zbc_zbs-ilp32-- \
           rv32imac_zba_zbb_zbc_zbs-ilp32-- \
           rv32imacxw-ilp32-- \
+          rv32imc_zba_zbb_zbc_zbs_xw-ilp32-- \
           rv32imac_zba_zbb_zbc_zbs_xw-ilp32-- \
           rv32imaf-ilp32f-- \
           rv32imafc-ilp32f-- \
@@ -95,9 +98,11 @@ function application_build_versioned_components()
           rv32imfd-ilp32d-- \
           rv32imfdc-ilp32d-- \
           \
-          rv64i-lp64-- \
-          rv64ia-lp64-- \
-          rv64iac-lp64-- \
+          rv64im-lp64-- \
+          rv64ima-lp64-- \
+          rv64imac-lp64-- \
+          rv64imaf-lp64f-- \
+          rv64imafc-lp64f-- \
         "}
       else
         # Short list used during development to save time.
