@@ -110,7 +110,6 @@ function application_build_versioned_components()
         XBB_GCC_MULTILIB_LIST=${XBB_GCC_MULTILIB_LIST:-"\
           rv32emac-ilp32e-- \
           rv32ima-ilp32-- \
-          rv32ic-ilp32-- \
           rv64imac-lp64-- \
         "}
       fi
